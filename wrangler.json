@@ -13,7 +13,7 @@
 		{
 			"type": "Data",
 			"globs": [
-				"**/*.woff", "**/*.woff2"
+				"**/*.woff", "**/*.woff2", "**/*.png", "**/*.ico"
 			],
 			"fallthrough": false
 		}
