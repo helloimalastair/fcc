@@ -1,0 +1,21 @@
+{
+	"name": "fcc-backend",
+	"main": "src/index.ts",
+	"compatibility_date": "2023-08-14",
+	"rules": [
+		{
+			"type": "Text",
+			"globs": [
+				"**/*.css", "**/*.html"
+			],
+			"fallthrough": false
+		},
+		{
+			"type": "Data",
+			"globs": [
+				"**/*.woff", "**/*.woff2"
+			],
+			"fallthrough": false
+		}
+	]
+}

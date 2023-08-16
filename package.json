@@ -1,0 +1,13 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "wrangler dev -j"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20230814.0",
+		"wrangler": "^3.5.1"
+	},
+	"dependencies": {
+		"hono": "^3.4.3"
+	}
+}
