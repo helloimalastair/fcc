@@ -8,6 +8,9 @@ dependencies:
   hono:
     specifier: ^3.4.3
     version: registry.npmjs.org/hono@3.4.3
+  nanoid:
+    specifier: ^4.0.2
+    version: registry.npmjs.org/nanoid@4.0.2
 
 devDependencies:
   '@cloudflare/workers-types':
@@ -841,6 +844,14 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: true
+
+  registry.npmjs.org/nanoid@4.0.2:
+    resolution: {integrity: sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/nanoid/-/nanoid-4.0.2.tgz}
+    name: nanoid
+    version: 4.0.2
+    engines: {node: ^14 || ^16 || >=18}
+    hasBin: true
+    dev: false
 
   registry.npmjs.org/napi-build-utils@1.0.2:
     resolution: {integrity: sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/napi-build-utils/-/napi-build-utils-1.0.2.tgz}

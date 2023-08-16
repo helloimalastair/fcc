@@ -17,5 +17,12 @@
 			],
 			"fallthrough": false
 		}
+	],
+	"kv_namespaces": [
+		{
+			"binding": "KV",
+			"id": "whatever",
+			"preview_id": "whatever"
+		}
 	]
 }

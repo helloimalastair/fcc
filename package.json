@@ -8,6 +8,7 @@
 		"wrangler": "^3.5.1"
 	},
 	"dependencies": {
-		"hono": "^3.4.3"
+		"hono": "^3.4.3",
+		"nanoid": "^4.0.2"
 	}
 }
