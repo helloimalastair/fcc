@@ -1,10 +1,12 @@
 {
 	"private": true,
 	"scripts": {
-		"dev": "wrangler dev -j"
+		"dev": "NO_D1_WARNING=true wrangler dev -j",
+		"build": "esbuild src/index.ts --bundle --minify --target=esnext --format=esm --loader:.css=text --loader:.html=text --loader:.woff=binary --loader:.woff2=binary --loader:.png=binary --loader:.ico=binary --outfile=dist/index.js"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20230814.0",
+		"esbuild": "^0.19.2",
 		"wrangler": "^3.5.1"
 	},
 	"dependencies": {

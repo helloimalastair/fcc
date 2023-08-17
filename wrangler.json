@@ -1,28 +1,23 @@
 {
 	"name": "fcc-backend",
-	"main": "src/index.ts",
+	"main": "dist/index.js",
 	"compatibility_date": "2023-08-14",
-	"rules": [
-		{
-			"type": "Text",
-			"globs": [
-				"**/*.css", "**/*.html"
-			],
-			"fallthrough": false
-		},
-		{
-			"type": "Data",
-			"globs": [
-				"**/*.woff", "**/*.woff2", "**/*.png", "**/*.ico"
-			],
-			"fallthrough": false
-		}
-	],
+	"no_bundle": true,
+	"build": {
+		"command": "pnpm build"
+	},
 	"kv_namespaces": [
 		{
 			"binding": "KV",
-			"id": "whatever",
-			"preview_id": "whatever"
+			"id": "a82d28d43c14412da46a4b459188704d",
+			"preview_id": "a82d28d43c14412da46a4b459188704d"
+		}
+	],
+	"d1_databases": [
+		{
+			"binding": "D1",
+			"database_name": "TechnicallyD2",
+			"database_id": "5e3a2998-67c2-4312-86c8-f17dae058927"
 		}
 	]
 }
