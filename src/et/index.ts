@@ -3,7 +3,6 @@ import { Hono } from "hono";
 import css from "./style.css";
 import { nanoid } from "nanoid";
 import index from "./index.html";
-import favicon from "./favicon.ico";
 
 const app = new Hono<Environment>();
 
@@ -16,12 +15,6 @@ app.get("/", () => new Response(index, {
 app.get("/style.css", () => new Response(css, {
 	headers: {
 		"content-type": "text/css"
-	}
-}));
-
-app.get("/favicon.ico", () => new Response(favicon, {
-	headers: {
-		"content-type": "image/x-icon"
 	}
 }));
 
